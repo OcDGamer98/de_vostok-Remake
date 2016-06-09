@@ -1,0 +1,10 @@
+# Custom GitIgnore file for cs_mall
+
+# Ignored files
+*.vmx
+*.log
+*.bsp
+*.prt
+
+# Windows files ignored
+index.db
