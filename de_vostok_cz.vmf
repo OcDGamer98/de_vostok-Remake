@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7152"
-	"mapversion" "1010"
+	"mapversion" "1013"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1010"
+	"mapversion" "1013"
 	"classname" "worldspawn"
 	"chaptertitle" "Vostok Remastered"
 	"coldworld" "1"
@@ -2189,7 +2189,7 @@ world
 		side
 		{
 			"id" "10447"
-			"plane" "(-228 1713 148.125) (-198 1713 148.125) (-198 1707 148.125)"
+			"plane" "(-228 1707 148.125) (-228 1713 148.125) (-198 1713 148.125)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2200,7 +2200,7 @@ world
 		side
 		{
 			"id" "10448"
-			"plane" "(-228 1707 -107.875) (-198 1707 -107.875) (-198 1713 -107.875)"
+			"plane" "(-228 1713 -53) (-228 1707 -53) (-198 1707 -53)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2211,7 +2211,7 @@ world
 		side
 		{
 			"id" "10449"
-			"plane" "(-228 1713 148.125) (-228 1707 148.125) (-228 1707 -107.875)"
+			"plane" "(-228 1707 -53) (-228 1713 -53) (-228 1713 148.125)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2222,7 +2222,7 @@ world
 		side
 		{
 			"id" "10450"
-			"plane" "(-198 1713 -107.875) (-198 1707 -107.875) (-198 1707 148.125)"
+			"plane" "(-198 1713 -53) (-198 1707 -53) (-198 1707 148.125)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2233,7 +2233,7 @@ world
 		side
 		{
 			"id" "10451"
-			"plane" "(-198 1713 148.125) (-228 1713 148.125) (-228 1713 -107.875)"
+			"plane" "(-228 1713 -53) (-198 1713 -53) (-198 1713 148.125)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2244,7 +2244,7 @@ world
 		side
 		{
 			"id" "10452"
-			"plane" "(-198 1707 -107.875) (-228 1707 -107.875) (-228 1707 148.125)"
+			"plane" "(-198 1707 -53) (-228 1707 -53) (-228 1707 148.125)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -31568,38 +31568,6 @@ world
 }
 entity
 {
-	"id" "94014"
-	"classname" "info_player_terrorist"
-	"angles" "0 75 0"
-	"enabled" "1"
-	"priority" "4"
-	"origin" "2302 1819 33"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "94016"
-	"classname" "info_player_counterterrorist"
-	"angles" "0 90 0"
-	"enabled" "1"
-	"priority" "4"
-	"origin" "2233 1822 33"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "92883"
 	"classname" "infodecal"
 	"texture" "de_train/train_cement_stain_01"
@@ -53823,7 +53791,7 @@ entity
 {
 	"id" "63166"
 	"classname" "info_ladder_dismount"
-	"origin" "-214.256 1737.62 -107"
+	"origin" "-214.256 1737.62 -52.3126"
 	editor
 	{
 		"color" "255 128 255"
@@ -63323,8 +63291,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[2300.94 2941.98 80.7796]"
-		"look" "[2296.65 2955.16 80.6992]"
+		"position" "[-156.261 1762.18 186.354]"
+		"look" "[-167.568 1759.54 178.786]"
 	}
 }
 cordons
