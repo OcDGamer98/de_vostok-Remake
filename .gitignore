@@ -5,6 +5,7 @@
 *.log
 *.bsp
 *.prt
+*.lin
 
 # Windows files ignored
 index.db
@@ -12,4 +13,3 @@ index.db
 # Ignored folders
 
 /source
-*.lin
